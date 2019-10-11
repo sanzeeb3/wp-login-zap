@@ -62,7 +62,7 @@ function wplz_save_settings() {
 			   print 'Nonce Failed!';
 			   exit;
 		} else {
-			$webhook_url = isset( $_POST['webhook_url'] ) ? $_POST['webhook_url'] : '';
+			$webhook_url = isset( $_POST['webhook_url'] ) ? esc_url_raw( $_POST['webhook_url'] ) : '';
 			$message     = esc_html__( 'Done!', 'wp-login-zap');
 			$class       = 'notice-success';
 
@@ -106,7 +106,7 @@ function wplz_send_data_to_zapier( array $data ) {
   	     	        'body'    => json_encode( $data ),
 				));
 
-	$result  = wp_remote_post( $webhook_url, $args );
+	$result  = wp_remote_post( esc_url_raw( $webhook_url ), $args );
 
     if ( is_wp_error( $result ) ) {
         error_log( print_r( $result->get_error_message(), true ) );

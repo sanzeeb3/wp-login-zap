@@ -7,6 +7,7 @@
  * Author URI: http://www.sanjeebaryal.com.np
  * Text Domain: wp-login-zap
  */
+
 defined( 'ABSPATH' ) or die( "No script kiddies please!" );
 
 add_action( 'admin_menu', 'wplz_register_setting_menu' );
@@ -50,7 +51,7 @@ function wplz_settings_page() {
 
 /**
  * Save Settings.
- * s
+ *
  * @since 1.0.0
  */
 function wplz_save_settings() {
@@ -86,6 +87,8 @@ function wplz_save_settings() {
 /**
  * Send data to Zapier.
  *
+ * @param array $data Login data to send to Zapier.
+ *
  * @since  1.0.0
  */
 function wplz_send_data_to_zapier( array $data ) {
@@ -118,10 +121,10 @@ function wplz_send_data_to_zapier( array $data ) {
  */
 function wplz_login( $user_login, $user ) {
 	$data = apply_filters( 'wp_login_zap_data_sending', array(
-		'ID' => $user->ID,
-		'Username' => $user_login,
-		'Email' => $user->user_email,
-		apply_filters( 'wp_login_zap_logged_in_time', 'Current Time' )  => current_time( 'mysql' )
+		esc_html__( 'ID', 'wp-login-zap' ) => $user->ID,
+		esc_html__( 'Username', 'wp-login-zap' ) => $user_login,
+		esc_html__( 'Email', 'wp-login-zap' ) => $user->user_email,
+		apply_filters( 'wp_login_zap_logged_in_time', esc_html__( 'Logged-in Time', 'wp-login-zap' ) ) => current_time( 'mysql' )
 	));
 
 	wplz_send_data_to_zapier( $data );	

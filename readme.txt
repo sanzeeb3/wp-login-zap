@@ -12,9 +12,9 @@ Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapi
 
 == Description ==
 
-Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapier ~ do anything with Zapier. Zapier is an online automation tool that connects your apps and services. Please visit [https://zapier.com](https://zapier.com) for more information on zapier.
+Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapier ~ do anything with Zapier. Zapier is an online automation tool that connects your apps and services. Please visit [https://zapier.com](https://zapier.com) for more information on Zapier.
 
-Enter your webhook URL in Settings > WP Login To Zapier, that's all.
+Enter your Webhook URL in Settings > WP Login To Zapier, that's all.
 
 == Screenshots ==
 
@@ -24,11 +24,11 @@ Enter your webhook URL in Settings > WP Login To Zapier, that's all.
 
 = WP Login Zap is awesome. Can I contribute? =
 
-Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-login-zap)
+Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-login-zap).
 
 = Need help? =
 
-[Contact Me.] (http://sanjeebaryal.com.np/contact)
+[Contact The Developer] (http://sanjeebaryal.com.np/contact).
 
 == Changelog == 
 

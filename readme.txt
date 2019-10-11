@@ -37,5 +37,5 @@ Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-logi
 
 == Changelog == 
 
-= 1.0.0 - xx/xx/2019 =
+= 1.0.0 - 10/11/2019 =
 * Initial Release

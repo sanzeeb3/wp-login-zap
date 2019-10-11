@@ -37,7 +37,7 @@ function wplz_settings_page() {
 			<table class="form-table">
 			        <tr valign="top">
 			           	<th scope="row"><?php echo esc_html__( 'Webhook URL', 'wp-login-zap' );?></th>
-			        		<td><input style="width:35%" type="text" name="webhook_url" value ="<?php echo esc_html( $webhook_url ); ?>" class="wp-login-zap-webhook-url" /><br/>
+			        		<td><input style="width:35%" type="url" name="webhook_url" value ="<?php echo esc_url( $webhook_url ); ?>" class="wp-login-zap-webhook-url" /><br/>
 			        		</td>
 			        </tr>
 			        <?php do_action( 'wp_login_zap_settings' );?>

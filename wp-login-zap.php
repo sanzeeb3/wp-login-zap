@@ -94,6 +94,11 @@ function wplz_save_settings() {
 function wplz_send_data_to_zapier( array $data ) {
 
 	$webhook_url = get_option( 'webhook_url' );
+
+	if ( empty( $webhook_url ) ) {
+		return;
+	}
+
     $headers 	 = array( 'Accept: application/json', 'Content-Type: application/json' );
 	$args 		 = apply_filters( 'wp_login_zap_arguments', array(
 					'method'  => 'POST',
@@ -104,7 +109,7 @@ function wplz_send_data_to_zapier( array $data ) {
 	$result  = wp_remote_post( $webhook_url, $args );
 
     if ( is_wp_error( $result ) ) {
-        error_log( print_r( $result->get_error_message() ) );
+        error_log( print_r( $result->get_error_message(), true ) );
     }
 
     do_action( 'wp_login_zap_data_sent', $result, $webhook_url );

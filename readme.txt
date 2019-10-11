@@ -22,6 +22,10 @@ Enter your Webhook URL in Settings > WP Login To Zapier, that's all.
 
 == Frequently Asked Questions ==
 
+= Nothing is sent to Zapier? =
+
+Check your debug log. Errors are logged into your debug log. For debugging, see [https://wordpress.org/support/article/debugging-in-wordpress/] (https://wordpress.org/support/article/debugging-in-wordpress/)
+
 = WP Login Zap is awesome. Can I contribute? =
 
 Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-login-zap).
@@ -29,6 +33,7 @@ Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-logi
 = Need help? =
 
 [Contact The Developer] (http://sanjeebaryal.com.np/contact).
+
 
 == Changelog == 
 

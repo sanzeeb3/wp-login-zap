@@ -14,6 +14,8 @@ Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapi
 
 Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapier ~ do anything with Zapier. Zapier is an online automation tool that connects your apps and services. Please visit [https://zapier.com](https://zapier.com) for more information on Zapier.
 
+[Documentation](http://sanjeebaryal.com.np/how-to-use-wp-login-zap-plugin/)
+
 Enter your Webhook URL in Settings > WP Login To Zapier, that's all.
 
 == Screenshots ==
@@ -37,5 +39,5 @@ Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-logi
 
 == Changelog == 
 
-= 1.0.0 - 10/11/2019 =
+= 1.0.0 - 10/12/2019 =
 * Initial Release

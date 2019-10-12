@@ -16,17 +16,13 @@ Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapi
 
 [Documentation](http://sanjeebaryal.com.np/how-to-use-wp-login-zap-plugin/)
 
-Enter your Webhook URL in Settings > WP Login To Zapier, that's all.
-
-== Screenshots ==
-
-1. Backend Settings
+Enter your Webhook URL in Settings > WP Login Zap, that's all.
 
 == Frequently Asked Questions ==
 
 = Nothing is sent to Zapier? =
 
-Check your debug log. Errors are logged into your debug log. For debugging, see [https://wordpress.org/support/article/debugging-in-wordpress/] (https://wordpress.org/support/article/debugging-in-wordpress/)
+Check your debug log. Errors are logged into your debug log. For debugging, see [https://wordpress.org/support/article/debugging-in-wordpress/](https://wordpress.org/support/article/debugging-in-wordpress/)
 
 = WP Login Zap is awesome. Can I contribute? =
 
@@ -34,7 +30,7 @@ Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-logi
 
 = Need help? =
 
-[Contact The Developer] (http://sanjeebaryal.com.np/contact).
+[Contact The Developer](http://sanjeebaryal.com.np/contact).
 
 
 == Changelog == 

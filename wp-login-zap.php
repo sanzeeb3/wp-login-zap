@@ -2,7 +2,7 @@
 /**
  * Plugin Name: WP Login Zap
  * Description: Sends user login data to Zapier when user logs in.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Sanjeev Aryal
  * Author URI: http://www.sanjeebaryal.com.np
  * Text Domain: wp-login-zap
@@ -142,7 +142,7 @@ function wplz_login( $user_login, $user ) {
  *
  * @see  https://stackoverflow.com/a/2031935/5608921
  *
- * @since  1.1.0
+ * @since  1.0.1
  *
  * @return string IP Address
  */

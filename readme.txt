@@ -4,7 +4,7 @@ Tags: zapier, login, login activity, send data,
 Requires at least: 4.0
 Tested up to: 5.2.3
 Requires PHP: 5.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -34,6 +34,9 @@ Yes, you can! Join in on [GitHub repository](https://github.com/sanzeeb3/wp-logi
 
 
 == Changelog == 
+
+= 1.0.1 - 10/17/2019 =
+* Feature - Get User IP and Browser Information
 
 = 1.0.0 - 10/12/2019 =
 * Initial Release

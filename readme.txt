@@ -14,6 +14,14 @@ Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapi
 
 Do anything whenever user(s) logs into your site, with Zapier. Send data to Zapier ~ do anything with Zapier. Zapier is an online automation tool that connects your apps and services. Please visit [https://zapier.com](https://zapier.com) for more information on Zapier.
 
+Data Sent to Zapier: User ID, Username, Email, Logged-in Time, IP Address, Browser Information. Use filter 'wp_login_zap_data_sending' to add more information.
+
+### Features:
+
+* Store every user's login activity in your Google Spreadsheet. See, [https://zapier.com/apps/google-sheets/integrations](https://zapier.com/apps/google-sheets/integrations)
+* Send Email/SMS alert when a user logs into your site. See, [https://zapier.com/apps/sms/integrations](https://zapier.com/apps/sms/integrations)
+* Any many more. See, [https://zapier.com/apps](https://zapier.com/apps)
+
 [Documentation](http://sanjeebaryal.com.np/how-to-use-wp-login-zap-plugin/)
 
 Enter your Webhook URL in Settings > WP Login Zap, that's all.
